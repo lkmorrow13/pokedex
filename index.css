@@ -1,0 +1,114 @@
+html, body {
+	background-image: url(pokedeximage/animebackground.jpg);
+}
+
+#pokedexMain {
+	display: inline-block;
+}
+
+#pokedexInfo {
+	position: absolute;
+	height: 545px;
+	width: 735px;
+	top: 25px;
+	left: 25px;
+}
+
+#pokesprite {
+	position: absolute;
+	height: 250px;
+	width: 200px;
+	background-color: blue;
+	top: 100px;
+	left: 85px;
+}
+
+#pokeName {
+	position: absolute;
+	height: 85px;
+	width: 300px;
+	background-color: blue;
+	top: 85px;
+	left: 400px;
+}
+
+#pokeNumber {
+	position: absolute;
+	height: 100px;
+	width: 75px;
+	background-color: blue;
+	top: 190px;
+	left: 350px;
+}
+
+#pokeType {
+	position: absolute;
+	height: 50px;
+	width: 115px;
+	background-color: blue;
+	top: 190px;
+	left: 450px;
+}
+
+#pokeHeight {
+	position: absolute;
+	height: 45px;
+	width: 115px;
+	background-color: blue;
+	top: 260px;
+	left: 520px;
+}
+
+#pokeWeight {
+	position: absolute;
+	height: 45px;
+	width: 115px;
+	background-color: red;
+	top: 310px;
+	left: 520px;
+}
+
+#pokeFavorites {
+	position: absolute;
+	height: 204px;
+	width: 280px;
+	background-color: white;
+	top: 48px;
+	left: 881px;
+}
+
+#pokeInfo {
+	position: absolute;
+	height: 142px;
+	width: 637px;
+	background-color: blue;
+	top: 396px;
+	left: 80px;
+}
+
+#pokeUp {
+	position: absolute;
+	height: 38px;
+	width: 34px;
+	background-color: blue;
+	top: 334px;
+	left: 850px;
+}
+
+#pokeDown {
+	position: absolute;
+	height: 45px;
+	width: 34px;
+	background-color: red;
+	top: 375px;
+	left: 850px;
+}
+
+#pokeList {
+	position: absolute;
+	height: 300px;
+	width: 277px;
+	background-color: white;
+	top: 349px;
+	left: 893px;
+}

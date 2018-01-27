@@ -1,28 +1,27 @@
 $(function() {
+	var pokedex = new Pokedex();
+	pokedex.pokeHTML();
+	
 
-	class Pokedex {
-		constructor() {
-			this.fave_list = [];
-			this.current_pokemon = null;
-		}
-
-		showDetails(name) {
-			cachedFetch('https://pokeapi.co/api/v2/pokemon/${name}') .then(r => r.json()) .then(res => {
-				console.log(res);
-				let id = res.id;
-				let name = res.name;
-				let height = res.height;
-				let weight = res.weight;
-				let typeData = res.types;
-				let type = '<ul>';
-				this.current_pokemon = name;
-
-				for (var i = 0; i < typeData.length; i++) {
-					types[i] 
-				}
-			});
-		}	
+	// var $btn = $('#get-pokemon-btn');
+	// var $detail_section = $('#detail-section');
+	// $btn.click(function() {
+	// 	var pokemon_name = $(this).data('name');
+	// 	$detail-section.html(pokedex.pokeDataAsHTML(pokemon_name));
+	// })	
+})
+class Pokedex {
+	constructor() {
+		this.pokemonList = pokemonArray;
 	}
 
-	
-})
+	pokeHTML() {
+		for (var i = 0; i < this.pokemonList.length; i++) {
+			// console.log(this.pokemonList[i]);
+			$("#pokeList ul").append('<li class="pokemon_name"><a href="' + this.pokemonList[i] + '">' + this.pokemonList[i] + '</a></li>');
+		}
+		// return pokemonList;
+	}
+}
+
+// var pokedex = new Pokedex();

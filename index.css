@@ -107,8 +107,14 @@ html, body {
 #pokeList {
 	position: absolute;
 	height: 300px;
-	width: 277px;
-	background-color: white;
+	width: 238px;
+	color: white;
 	top: 349px;
-	left: 893px;
+	left: 904px;
+	overflow: scroll;
+}
+
+.pokemon_name {
+	font-size: 35px;
+
 }

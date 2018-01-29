@@ -18,7 +18,6 @@ html, body {
 	position: absolute;
 	height: 250px;
 	width: 200px;
-	background-color: blue;
 	top: 100px;
 	left: 85px;
 }
@@ -26,46 +25,51 @@ html, body {
 #pokeName {
 	position: absolute;
 	height: 85px;
-	width: 300px;
-	background-color: blue;
-	top: 85px;
-	left: 400px;
+	width: 348px;
+	top: 88px;
+	left: 377px;
+	font-size: 61px;
+	text-align: center;
 }
 
 #pokeNumber {
 	position: absolute;
-	height: 100px;
-	width: 75px;
-	background-color: blue;
-	top: 190px;
-	left: 350px;
+	height: 85px;
+	width: 91px;
+	top: 202px;
+	left: 338px;
+	font-size: 66px;
+	text-align: center;
 }
 
 #pokeType {
 	position: absolute;
 	height: 50px;
 	width: 115px;
-	background-color: blue;
 	top: 190px;
 	left: 450px;
+	font-size: 37px;
+	text-align: center;
 }
 
 #pokeHeight {
 	position: absolute;
 	height: 45px;
-	width: 115px;
-	background-color: blue;
-	top: 260px;
-	left: 520px;
+	width: 90px;
+	top: 256px;
+	left: 517px;
+	font-size: 45px;
+	text-align: center;
 }
 
 #pokeWeight {
 	position: absolute;
 	height: 45px;
-	width: 115px;
-	background-color: red;
+	width: 90px;
 	top: 310px;
-	left: 520px;
+	left: 517px;
+	font-size: 45px;
+	text-align: center;
 }
 
 #pokeFavorites {
@@ -86,24 +90,6 @@ html, body {
 	left: 80px;
 }
 
-#pokeUp {
-	position: absolute;
-	height: 38px;
-	width: 34px;
-	background-color: blue;
-	top: 334px;
-	left: 850px;
-}
-
-#pokeDown {
-	position: absolute;
-	height: 45px;
-	width: 34px;
-	background-color: red;
-	top: 375px;
-	left: 850px;
-}
-
 #pokeList {
 	position: absolute;
 	height: 300px;
@@ -115,6 +101,27 @@ html, body {
 }
 
 .pokemon_name {
-	font-size: 35px;
+	font-size: 25px;
+}
 
+#faveClick {
+	position: absolute;
+	background-color: blue;
+	height: 33px;
+	width: 35px;
+	top: 539px;
+	left: 849px;
+}
+
+#unfaveClick {
+	position: absolute;
+	background-color: blue;
+	height: 33px;
+	width: 35px;
+	top: 480px;
+	left: 849px;
+}
+
+.activePoke {
+	color: red;
 }

@@ -85,6 +85,7 @@ html, body {
 
 #pokeInfo {
 	position: absolute;
+	background-color: white;
 	height: 142px;
 	width: 637px;
 	top: 396px;

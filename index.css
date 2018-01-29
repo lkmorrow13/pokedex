@@ -79,13 +79,14 @@ html, body {
 	background-color: white;
 	top: 48px;
 	left: 881px;
+	overflow: scroll;
+	font-size: 23px;
 }
 
 #pokeInfo {
 	position: absolute;
 	height: 142px;
 	width: 637px;
-	background-color: blue;
 	top: 396px;
 	left: 80px;
 }
@@ -106,7 +107,6 @@ html, body {
 
 #faveClick {
 	position: absolute;
-	background-color: blue;
 	height: 33px;
 	width: 35px;
 	top: 539px;
@@ -115,7 +115,6 @@ html, body {
 
 #unfaveClick {
 	position: absolute;
-	background-color: blue;
 	height: 33px;
 	width: 35px;
 	top: 480px;
